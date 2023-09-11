@@ -23,7 +23,17 @@ export default function Home() {
         </div>
         <div className='h-48 w-full bg-sky-400 flex items-center justify-center'>bg-sky-400</div>
       </main>
-      <div className='h-screen w-full bg-blue-300 flex items-center justify-center'>bg-blue-300</div>
+      <div className=''>
+        <div className='h-24 w-full space-x-4 bg-indigo-600 flex items-center justify-center'>
+          <h1>404 Not Found</h1>
+          <h1>504 Gateway Timeout</h1>
+        </div>
+        <div className="bg-slate-700 flex justify-center">
+          <div className='px-4  bg-red-300 inline-block'>
+            <h4 className='text-center'>Click here</h4>
+          </div>
+        </div>
+      </div>
       <footer className='h-24 w-full bg-purple-400 flex items-center'>
         <div className='w-full mx-10 flex justify-between'>
           <div>{ new Date().getFullYear() } &copy; Hello, World</div>
