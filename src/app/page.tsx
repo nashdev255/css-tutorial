@@ -5,11 +5,11 @@ export default function Home() {
     <>
       <header className='h-24 w-full bg-teal-300 flex items-center'>
         <nav className='w-full mx-10 flex justify-between'>
-          <h3 className='bg-red-300 font-bold text-3xl'>Hello, World</h3>
+          <h3 className='font-bold text-3xl'>Hello, World</h3>
           <ul className='space-x-4 flex items-center'>
-            <li className='bg-slate-300'>OOH</li>
-            <li className='bg-slate-300'>EEH</li>
-            <li className='bg-slate-300'>OOHAHAAH</li>
+            <li>OOH</li>
+            <li>EEH</li>
+            <li>OOHAHAAH</li>
           </ul>
         </nav>
       </header>
