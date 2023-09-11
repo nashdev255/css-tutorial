@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
           </ul>
         </nav>
       </header>
-      <div className='flex'>
+      <main className='flex'>
         <div className='h-48 w-48 bg-slate-500 flex items-center justify-center'>
           <p>bg-slate-500</p>
         </div>
@@ -22,13 +22,14 @@ export default function Home() {
           <div className='h-24 w-48 bg-green-400 flex items-center justify-center'>bg-green-400</div>
         </div>
         <div className='h-48 w-full bg-sky-400 flex items-center justify-center'>bg-sky-400</div>
-      </div>
+      </main>
+      <div className='h-screen w-full bg-blue-300 flex items-center justify-center'>bg-blue-300</div>
       <footer className='h-24 w-full bg-purple-400 flex items-center'>
         <div className='w-full mx-10 flex justify-between'>
           <div>{ new Date().getFullYear() } &copy; Hello, World</div>
-          <div>Build with nashdev255</div>
+          <div>Build with <Link href={'./'}>nashdev255</Link></div>
         </div>
       </footer>
     </>
-  )
+  );
 }
